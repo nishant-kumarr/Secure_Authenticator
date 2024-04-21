@@ -1,0 +1,150 @@
+body {
+    background-image: url("login-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.login__wrapper {
+    padding: 20px 10px; /* Adjust padding as needed */
+}
+
+.login__container {
+    max-width: 400px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5%;
+    padding : 40px 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+    margin: 0 auto; /* Center horizontally */
+}
+
+.login__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Garamond (serif)";
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS' sans-serif;
+}
+
+.form-control {
+    padding-right: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 100%; /* Adjust width to fill container */
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.form-control:hover::placeholder {
+    color: orange;
+}
+
+.form-control:focus+.icon {
+    color: orange;
+}
+
+.form-control+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: white;
+}
+
+.login__button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.login__button:hover {
+    background-color: wheat;
+}
+
+.login__register {
+    text-align: center;
+    margin-top: 10px;
+    color: yellow;
+}
+
+.login__register p {
+    margin: 0;
+}
+
+.login__register a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.login__register a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+div.alert {
+    margin-top: 10px;
+}
+
+div.alert-danger {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+div.alert-success {
+    background-color: rgba(0, 128, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Garamond (serif)";
+}
+
+.not-registered {
+    color: yellow;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgba(255, 255, 255); /* Light white color for placeholders */
+}
