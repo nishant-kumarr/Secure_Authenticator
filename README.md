@@ -7,7 +7,7 @@ Project implementing robust user authentication protocols within an attendance s
 ## How to Use
 - **Cloning the Repository :** Start by cloning the project repository to your local machine using Git. This step ensures that you have access to all project files and resources locally.
 
-- **Setting up Local Web Server Environment:** To run the project, you need a local web server environment with PHP and MySQL installed. Tools like XAMPP, WAMP, or MAMP provide pre-configured environments and are easy to set up.
+- **Setting up Local Web Server Environment :** To run the project, you need a local web server environment with PHP and MySQL installed. Tools like XAMPP, WAMP, or MAMP provide pre-configured environments and are easy to set up.
   
 - **Importing the Database :** After setting up the local server, import the provided SQL database file (database.sql) into your MySQL database. This file contains the necessary tables and data structures for storing student and attendance records.
   
