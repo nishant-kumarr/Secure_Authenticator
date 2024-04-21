@@ -1,4 +1,4 @@
-# Secure_Authenticator
+# Secure Authenticator
 
 ## Overview
 Project implementing robust user authentication protocols within an attendance system, prioritizing cybersecurity practices to ensure data integrity and user privacy. It provides a user-friendly interface for managing student attendance, enhancing efficiency and security in attendance management.
@@ -38,19 +38,19 @@ The Secure_Authenticator operates on a simple yet effective mechanism :
 ## Technologies & Features Used
 The Secure_Authenticator leverages a variety of technologies and features to deliver its functionality:
 
-- `PHP :` Server-side scripting language for dynamic content generation and database interaction.
+- `PHP` : Server-side scripting language for dynamic content generation and database interaction.
   
-- `MySQL :` Relational database management system for storing and querying student and attendance records.
+- `MySQL` : Relational database management system for storing and querying student and attendance records.
   
-- `HTML/CSS/Bootstrap :` Front-end technologies for creating a responsive and visually appealing user interface.
+- `HTML/CSS/Bootstrap` : Front-end technologies for creating a responsive and visually appealing user interface.
   
-- `JavaScript :` Client-side scripting for implementing interactive features such as toggling attendance without page reload.
+- `JavaScript` : Client-side scripting for implementing interactive features such as toggling attendance without page reload.
   
-- `AJAX :` Asynchronous requests to update attendance records without refreshing the entire page, enhancing user experience.
+- `AJAX` : Asynchronous requests to update attendance records without refreshing the entire page, enhancing user experience.
   
-- `Sessions :` User authentication and session management to control access to dashboard features based on login status.
+- `Sessions` : User authentication and session management to control access to dashboard features based on login status.
   
-- `Password Hashing :` Secure storage and verification of user passwords using bcrypt hashing algorithm, ensuring data privacy and security.
+- `Password Hashing` : Secure storage and verification of user passwords using bcrypt hashing algorithm, ensuring data privacy and security.
 
 ## User Interface
 The user interface of the Secure_Authenticator prioritizes simplicity, functionality, and responsiveness:
